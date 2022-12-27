@@ -1,0 +1,71 @@
+.tanpa-bootstrap {
+    border: none;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 3em;
+    background-color: tomato;
+    color: #333;
+    cursor: pointer;
+}
+
+.tanpa-bootstrap:hover {
+    background-color: aqua;
+    color: black;
+    transform: rotateY(2);
+    transition: all .5s;
+} 
+
+.card-header {
+    font-family: 'Poppins';
+    font-weight: Bold;
+}
+
+.navbar-brand {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #323232fd;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  form.example button:hover {
+    background: #ffffff;
+    color: rgb(183, 2, 2);
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .navbar {
+    background-color: rgb(77, 101, 223);
+  }
